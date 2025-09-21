@@ -10,7 +10,6 @@ from PyQt5.QtGui import QPixmap, QImage, QIcon
 from PyQt5.QtCore import Qt, QSize
 from PIL import Image
 
-# Отключаем ограничение на размер изображения в Pillow для обработки больших текстур
 Image.MAX_IMAGE_PIXELS = None
 
 class MinecraftUpscaler(QWidget):
